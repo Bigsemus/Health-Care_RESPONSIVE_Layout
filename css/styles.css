@@ -1,0 +1,900 @@
+/* 
+* Colors used in design.
+*   primary: #0078aa;
+*   dark: #363636;
+*   light: #fff;
+ */
+
+#home{
+  padding-top: 150px;
+  margin-top: -150px;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  margin: 0;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.about_p {
+  color: #0078aa;
+}
+
+.about_string {
+  color: #0078aa;
+}
+
+.header_item {
+  list-style-type: none;
+}
+
+.header_link {
+  text-decoration: none;
+  color: #363636;
+}
+
+.header_logo_link:hover,
+.header_logo_link:focus,
+.header_logo_link:active {
+  color: #0078aa;
+}
+
+.header_link:hover,
+.header_link:focus,
+.header_link:active {
+  color: #0078aa;
+}
+
+/*  */
+.icon_link {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #0078aa;
+  text-align: center;
+}
+
+.icon_link_wrap {
+  display: flex;
+}
+
+.icon_link {
+  margin-right: 10px;
+}
+
+.svg_link {
+  width: 40px;
+  padding-top: 10px;
+}
+
+.svg_link path {
+  fill: #fff;
+}
+
+.icon_link:hover {
+  background-color: #fff;
+  border: #0078aa 3px solid;
+}
+
+.svg_link path:hover {
+  fill: #0078aa;
+}
+
+/*  */
+
+.card {
+  display: flex;
+  background-image: url(../img/services_bg.jpg);
+}
+
+.card_title,
+.card_subtitle {
+  text-align: center;
+}
+
+.places_wrap2,
+.places_wrap1 {
+  display: flex;
+}
+
+.place_card {
+  background-color: #fff;
+}
+
+.offers_title,
+.offers_subtitle {
+  text-align: center;
+}
+
+.offers_wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.offer1,
+.offer3 {
+  background-color: #0078aa;
+}
+
+.offer1_title,
+.offer1_price,
+.offer1_treatments,
+.offer1_procedure,
+.offer3_title,
+.offer3_price,
+.offer3_treatments,
+.offer3_procedure {
+  color: white;
+  text-align: center;
+}
+
+.offer2_title,
+.offer2_price,
+.offer2_treatments,
+.offer2_procedure {
+  color: #0078aa;
+  text-align: center;
+}
+
+.offer_button_link {
+  text-decoration: none;
+  color: #0078aa;
+}
+
+.offer_button_link:hover {
+  color: #fff;
+}
+
+.offer_button:hover {
+  background-color: #0078aa;
+}
+
+.contact_button:hover {
+  background-color: #fff;
+  color: #0078aa;
+  border: 2px solid #0078aa;
+}
+
+.wrapper {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.header_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.header_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card_title,
+.about_h2,
+.intro_title {
+  font-size: 30px;
+}
+
+.header_wrapper {
+  padding-top: 8px;
+}
+
+.header_item {
+  margin-right: 20px;
+}
+
+.header_item:last-child {
+  margin-right: 0;
+}
+
+.header_link {
+  line-height: 5px;
+
+  font-weight: 600;
+}
+
+.intro {
+  min-height: 100vh;
+  background-position: bottom, 20%;
+  background-size: 133%;
+  background-image: url(../img/header_bg.jpg);
+  padding-top: 140px;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.intro_title_block {
+  width: 39%;
+}
+
+/* ABOUT START */
+.about {
+  display: flex;
+  padding: 50px 0 100px 0px;
+}
+
+.about_link {
+  position: fixed;
+  top: 600px;
+  right: 20px;
+}
+
+.about_laptop,
+.about_laptop_img {
+  width: 105%;
+}
+
+.about_clinic_wrap {
+  width: 75%;
+  padding-top: 70px;
+  padding-left: 35px;
+}
+
+/* ABOUT FINISH */
+
+/* CARD START */
+
+.card {
+  padding: 30px 0 60px 0;
+}
+
+.places_wrap1,
+.places_wrap2 {
+  height: 40%;
+}
+
+.place_card {
+  margin: 10px;
+  padding: 15px;
+}
+
+.place_card_title {
+  margin: 0;
+}
+
+.place_card_text {
+  margin-top: 5px;
+}
+
+/* CARD FINISH */
+
+/* OFFERS START*/
+.offers {
+  background-image: url(../img/pricing_bg.jpg);
+  background-position: 60%;
+  background-size: 105%;
+  background-repeat: no-repeat;
+  padding-bottom: 50px;
+}
+
+.offers_title {
+  padding-top: 50px;
+  margin-bottom: 0;
+}
+
+.offers_subtitle {
+  padding-bottom: 40px;
+  margin-top: 0;
+}
+
+.offer1,
+.offer2,
+.offer3 {
+  width: 32%;
+  height: 500px;
+}
+
+.offer2 {
+  border: #0078aa 2px solid;
+  margin: -35px 0 0 0;
+  height: 565px;
+}
+
+.offer2_title {
+  margin-top: 55px;
+}
+
+.offer1_title,
+.offer2_title,
+.offer3_title {
+  font-size: 21px;
+}
+
+.offer1_price,
+.offer2_price,
+.offer3_price {
+  font-size: 55px;
+  font-weight: 700;
+  margin: 30px 0;
+}
+
+.offer_button {
+  font-size: 25px;
+  font-weight: 600;
+  background-color: #fff;
+  margin-left: 31%;
+  border: #0078aa 2px solid;
+  border-radius: 12px;
+  padding: 7px;
+}
+
+.form_wrap {
+  display: flex;
+}
+
+.contact_form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_img {
+  width: 100%;
+  height: 100%;
+}
+
+.form_block {
+  width: 70%;
+}
+
+.form_block_title {
+  margin: 0;
+  padding-top: 60px;
+}
+
+.form_block_subtitle {
+  margin: 5px 0 20px 0;
+}
+
+.contact_input {
+  font-size: 18px;
+  font-style: italic;
+  margin: 5px 25px;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid #363636;
+}
+
+.contact_button {
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #0078aa;
+  margin: 20px 20px;
+
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 120px;
+}
+
+.footer_div {
+  background-color: #363636;
+  margin: 0;
+  height: 55px;
+}
+
+.footer_p {
+  text-align: center;
+  margin: 0;
+  padding-top: 18px;
+  color: #fff;
+}
+
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  .header_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  .header_list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .wrapper {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+
+  .card_title,
+  .about_h2,
+  .intro_title {
+    font-size: 35px;
+    font-weight: 900;
+  }
+
+  .header_wrapper {
+    padding-top: 8px;
+  }
+
+  .header_item {
+    margin-right: 14px;
+  }
+
+  .header_item:last-child {
+    margin-right: 18px;
+  }
+
+  .header_link {
+    line-height: 5px;
+    font-weight: 600;
+  }
+
+  .intro {
+    min-height: 100vh;
+    background-position: 41% 100%;
+    background-size: 212%;
+    background-image: url(../img/header_bg.jpg);
+
+    padding-top: 230px;
+    background-repeat: no-repeat;
+  }
+
+  .intro_title_block {
+    width: 65%;
+  }
+
+  /* ABOUT START */
+  .about {
+    display: flex;
+    padding: 20px 0 100px 0px;
+  }
+
+  .about_link {
+    position: fixed;
+    top: 600px;
+    right: 20px;
+  }
+
+  .about_laptop,
+  .about_laptop_img {
+    width: 105%;
+  }
+
+  .about_laptop_img {
+    padding-top: 250px;
+  }
+
+  .about_clinic_wrap {
+    width: 90%;
+    padding-top: 70px;
+    padding-left: 35px;
+  }
+
+  /* ABOUT FINISH */
+
+  /* CARD START */
+
+  .card {
+    padding: 20px 0 50px 0;
+  }
+
+  .places_wrap1,
+  .places_wrap2 {
+    height: 41%;
+  }
+
+  .place_card {
+    margin: 8px;
+    padding: 14px;
+  }
+
+  .card_title {
+    margin: 15px 0 0 0;
+  }
+
+  .place_card_title {
+    margin: 0;
+  }
+
+  .place_card_text {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+
+  /* CARD FINISH */
+
+  /* OFFERS START*/
+  .offers {
+    background-image: url(../img/pricing_bg.jpg);
+    background-position: 45%;
+    background-size: 155%;
+    background-repeat: no-repeat;
+    padding-bottom: 120px;
+  }
+
+  .offers_title {
+    padding-top: 50px;
+    margin-bottom: 0;
+  }
+
+  .offers_subtitle {
+    padding-bottom: 40px;
+    margin-top: 0;
+  }
+
+  .offer1,
+  .offer2,
+  .offer3 {
+    width: 35%;
+    height: 450px;
+  }
+
+  .offer2 {
+    border: #0078aa 2px solid;
+    margin: -25px 0 0 0;
+    height: 500px;
+  }
+
+  .offer1_title,
+  .offer3_title {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+
+  .offer2_title {
+    font-size: 20px;
+    margin-top: 17px;
+  }
+
+  .offer1_price,
+  .offer2_price,
+  .offer3_price {
+    font-size: 55px;
+    font-weight: 700;
+    margin: 5px 0;
+  }
+
+  .offer1_procedure,
+  .offer2_procedure,
+  .offer3_procedure {
+    margin: 14px 0;
+  }
+
+  .offer_button {
+    font-size: 22px;
+    font-weight: 600;
+    background-color: #fff;
+    margin-left: 28%;
+    border: #0078aa 2px solid;
+    border-radius: 12px;
+    padding: 7px;
+  }
+
+  .form_wrap {
+    display: flex;
+  }
+
+  .contact_form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form_img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .form_image {
+    width: 70%;
+  }
+
+  .form_block {
+    width: 50%;
+  }
+
+  .form_block_title {
+    margin-left: 20px;
+    padding-top: 0px;
+  }
+
+  .form_block_subtitle {
+    margin: 5px 0 20px 20px;
+  }
+
+  .contact_input {
+    font-size: 14px;
+    font-style: italic;
+    margin: 2px 20px;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #363636;
+  }
+
+  .contact_button {
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #0078aa;
+    margin: 15px 15px;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 120px;
+  }
+
+  .footer_div {
+    background-color: #363636;
+    margin: 0;
+    height: 55px;
+  }
+
+  .footer_p {
+    text-align: center;
+    margin: 0;
+    padding-top: 18px;
+    color: #fff;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .header_wrapper {
+    display: block;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .header_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 6px;
+  }
+
+  .wrapper {
+    max-width: 98%;
+    margin: 0 auto;
+  }
+
+  .card_title,
+  .about_h2,
+  .intro_title {
+    font-size: 38px;
+    font-weight: 900;
+  }
+
+  .header_item {
+    margin-right: 5px;
+  }
+
+  .header_link {
+    line-height: 5px;
+    font-weight: 600;
+  }
+
+  .intro {
+    min-height: 100vh;
+    background-position: 38% 100%;
+    background-size: 400%;
+    background-image: url(../img/header_bg.jpg);
+    padding-top: 90px;
+    background-repeat: no-repeat;
+  }
+
+  .intro_title_block,
+  .icon_link_wrap {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .icon_link {
+    margin-right: 25px;
+  }
+
+  .intro_title,
+  .intro_subtitle {
+    text-align: center;
+  }
+
+  /* ABOUT START */
+
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0 100px 0px;
+  }
+
+  .about_link {
+    top: 700px;
+  }
+
+  .about_laptop_img {
+    width: 100%;
+  }
+
+  .about_clinic_wrap {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .about_h4,
+  .about_h2,
+  .about_p,
+  .about_text {
+    text-align: center;
+  }
+
+  .about_h4,
+  .about_h2 {
+    margin: 5px 0;
+  }
+
+  .about_h4 {
+    font-size: 18px;
+  }
+
+  /* ABOUT FINISH */
+
+  /* CARD START */
+
+  .card {
+    padding: 20px 0 50px 0;
+  }
+
+  .places_wrap1,
+  .places_wrap2 {
+    flex-direction: column;
+  }
+
+  .places_wrap2 {
+    padding-top: 70px;
+  }
+
+  .place_card {
+    margin: 8px;
+    padding: 14px;
+  }
+
+  .card_title {
+    font-size: 28px;
+    margin: 15px 0 0 0;
+  }
+
+  .place_card_title {
+    margin: 0;
+  }
+
+  .place_card_text {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+
+  /* CARD FINISH */
+
+  /* OFFERS START*/
+  .offers {
+    padding-bottom: 120px;
+    background: none;
+  }
+
+  .offers_wrap {
+    flex-direction: column;
+  }
+
+  .offers_title {
+    padding-top: 50px;
+    margin-bottom: 0;
+  }
+
+  .offers_subtitle {
+    padding-bottom: 40px;
+    margin-top: 0;
+  }
+
+  .offer1,
+  .offer2,
+  .offer3 {
+    width: 100%;
+    height: 550px;
+  }
+
+  .offer2 {
+    border: #0078aa 2px solid;
+    margin: 30px 0;
+  }
+
+  .offer1_title,
+  .offer2_title,
+  .offer3_title {
+    font-size: 20px;
+    margin: 30px 0;
+  }
+
+  .offer1_price,
+  .offer2_price,
+  .offer3_price {
+    font-size: 55px;
+    font-weight: 700;
+    margin: 30px 0;
+  }
+
+  .offer1_procedure,
+  .offer2_procedure,
+  .offer3_procedure {
+    margin: 20px 0;
+  }
+
+  .offer_button {
+    font-size: 22px;
+    font-weight: 600;
+    background-color: #fff;
+    margin-left: 35%;
+    border: #0078aa 2px solid;
+    border-radius: 12px;
+    padding: 7px;
+  }
+
+  .contact_form,
+  .form_wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form_block {
+    width: 100%;
+  }
+
+  .form_block_title {
+    margin-left: 20px;
+    padding-top: 0px;
+  }
+
+  .form_block_subtitle {
+    margin: 5px 0 20px 20px;
+  }
+
+  .contact_input {
+    font-size: 14px;
+    font-style: italic;
+    margin: 2px 20px;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #363636;
+  }
+
+  .contact_button {
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #0078aa;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 120px;
+    margin: 15px 15px 15px 35%;
+  }
+
+  .footer_div {
+    background-color: #363636;
+    margin: 0;
+    height: 55px;
+  }
+
+  .footer_p {
+    text-align: center;
+    margin: 0;
+    padding-top: 18px;
+    color: #fff;
+  }
+}
